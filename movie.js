@@ -4,6 +4,8 @@ function Movie(title, rating){
         this.title = title;
         // property rating
         this.rating = rating;
+        // property year
+        this.year = year;
         // validate method to validate title and rating
         this.validate = function(){
                 // converting rating to number
